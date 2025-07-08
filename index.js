@@ -42,7 +42,7 @@ mongoose.connect(MONGO_URI, {
 
 // CONFIGURING OPTIONS
 const corsOptions = {
-  origin: ["http://localhost:3000", "http://localhost:3001" ,"https://one-place.vercel.app"],
+  origin: ["http://localhost:3000", "http://localhost:3001" ,"https://one-place-frontend-eje9ejhch3a9anex.australiaeast-01.azurewebsites.net"],
   credentials: true,
   optionSuccessStatus: 200
 };
